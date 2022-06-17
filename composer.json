@@ -1,0 +1,12 @@
+{
+    "name": "david/premium-cars",
+    "description": "Upload your cars and display them into the website.",
+    "type": "wordpress-plugin",
+    "license": "GPLv3",
+    "autoload": {
+        "psr-4": {
+            "PremiumCars\\": "src/"
+        }
+    },
+    "require": {}
+}
