@@ -8,5 +8,7 @@
             "PremiumCars\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "htmlburger/carbon-fields": "^3.3"
+    }
 }
