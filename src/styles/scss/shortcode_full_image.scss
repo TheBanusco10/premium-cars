@@ -1,0 +1,31 @@
+@import "mixin";
+
+#premium-cars {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  a {
+    flex: 325px;
+
+    .vehicle {
+      position: relative;
+
+      overflow: hidden;
+
+      width: 100%;
+      height: 250px;
+      flex: 325px;
+
+      img {
+        @include vehicle-img;
+      }
+
+      p {
+        @include vehicle-p;
+      }
+    }
+  }
+
+}

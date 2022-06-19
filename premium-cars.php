@@ -11,11 +11,14 @@ License: GPLv3
 */
 
 use PremiumCars\Classes\CarsCPT;
+use PremiumCars\Classes\PremiumCarsAdmin;
 
 require_once 'vendor/autoload.php';
 
 define('PLUGIN_URL', plugin_dir_path(__FILE__) . 'src/');
 
 $carsCPT = new CarsCPT();
+$premiumCarsSettings = new PremiumCarsAdmin();
 
 $carsCPT->init();
+$premiumCarsSettings->init();
