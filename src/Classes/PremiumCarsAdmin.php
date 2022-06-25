@@ -19,7 +19,7 @@ class PremiumCarsAdmin {
 	}
 
 	private function premium_cars_register_settings_page() {
-		Container::make( 'theme_options', __( 'Premium Cars Settings', 'pc' ) )
+		Container::make( 'theme_options', __( 'Premium Cars', 'pc' ) )
 		         ->add_fields( [
 			         Field::make( 'select', 'pc_template_type', __( 'Template type', 'pc' ) )->add_options( [
 				         'full_image' => 'Full image',
